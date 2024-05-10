@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --text1: #171717;
+    --background1:#ffffff;
+    --primary1: #3b5d87;
+    --secondary1: #88add8;
+    --accent1: #2670c5;
+    --blue1: #8db7ce;
+    --background2:#efefef;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --text1: #E9E9E9;
+      --background1:#111111;
+      --primary1:#3f72a8;
+      --secondary1: #264b76;
+      --accent1: #3b85da;
+      --blue1: #05253a;
+      --background2:#181c21;
+    }
+  }
+}
